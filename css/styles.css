@@ -24,10 +24,11 @@ body{
 	opacity: .75
 }
 
-.bg-curve{
-				width:contain;
+.wallpaper{
+				background:url('https://bg-curve-desktop.svg') no repeat;
+				background-size: contain;
 }
 
-.arrow{
-				color:blue;
+a>u{
+				color:green;
 }
