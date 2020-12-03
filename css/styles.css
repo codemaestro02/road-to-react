@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Open Sans, serif;
+	font-weight: 400;
+	background-image: url("./images/bg-curve-desktop.svg");
+}
+
+.nav{
+	clear: both;
+}
+
+#btn-email{
+	background-color: blue;
+	box-shadow: white;
+	color: white;
+	border: 1px;
+	font-weight: 400;
+}
+
+#btn-email:hover {
+	opacity: .75
+}
+
+.bg-curve:cover{
+				width:100%;
+}
+
+.arrow{
+				color:blue;
+}
