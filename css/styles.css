@@ -5,7 +5,6 @@
 body{
 	font-family: Open Sans, serif;
 	font-weight: 400;
-	background-image: url("./images/bg-curve-desktop.svg");
 }
 
 .nav{
@@ -14,14 +13,14 @@ body{
 
 #btn-email{
 	background-color: blue;
-	box-shadow: white;
+	box-shadow: white 0 0;
 	color: white;
 	border: 1px;
 	font-weight: 400;
 }
 
 #btn-email:hover {
-	opacity: .75
+	opacity: .75;
 }
 
 .wallpaper{
