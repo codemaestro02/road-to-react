@@ -24,8 +24,8 @@ body{
 	opacity: .75
 }
 
-.bg-curve:cover{
-				width:100%;
+.bg-curve{
+				width:contain;
 }
 
 .arrow{
