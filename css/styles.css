@@ -3,31 +3,186 @@
 }
 
 body{
-	font-family: Open Sans, serif;
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+}
+nav{
+	color: hsl(243, 87%, 12%);
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	
+}
+h1{
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	color: hsl(243, 87%, 12%);
+}
+p{
+	font-size: 1.3em;
 	font-weight: 400;
 }
 
-.nav{
-	clear: both;
+
+.form-group{
+	width: 480px;
+	height: 70px;
 }
 
 #btn-email{
-	background-color: blue;
-	box-shadow: white 0 0;
+	background-color: hsl(224, 93%, 58%);
+	box-shadow: 4px 4px 4px -2px #505050, 0 0 4px #505050 inset;
 	color: white;
 	border: 1px;
 	font-weight: 400;
+	border-radius: 2px;
+	width: 200px;
+	height: 45px;
+}
+#textboxid{
+	height: 45px;
+	width: 350px;
 }
 
 #btn-email:hover {
 	opacity: .75;
 }
 
-.wallpaper{
-				background:url('https://bg-curve-desktop.svg') no repeat;
-				background-size: contain;
+.bg-curve{
+	width: 100%;
+}
+
+.features, .team, .sign-in{
+	float: right;
 }
 
 a>u{
-				color:green;
+	color:green;
+	margin-left: 50px;
 }
+.bg-curve-desktop{
+	background-size: cover;
+}
+.bg-curve-mobile{
+	background-size: cover;
+}
+
+.jumbotron{
+	margin: 20px;
+	border: 1px solid gray;
+	padding: 15px;
+	margin: 30px;
+	box-shadow: 0px 4px 2px -2px gray;
+}
+.hispicture{
+	width: auto;
+	height: auto;
+	padding: 10px;
+}
+
+.ft-1{
+	background-color: hsl(238, 22%, 44%);
+	color: white;
+	padding: 30px;
+	margin: 30px;
+	display: inline-block;
+
+}
+.ft-1 div{
+	
+}
+.ft-1 h1{
+	color: white;
+}
+.ft-1 input{
+	width: 200px;
+	height: 50px;
+}
+
+.ft-2{
+	background-color: hsl(243, 87%, 12%);
+}
+
+.
+
+
+@media (max-width: 1440px){.col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12{
+			float: left;
+			}
+			.col-xl-1{
+				width: 8.33%;
+			}
+			.col-xl-2{
+				width: 16.66%;
+			}
+			.col-xl-3{
+				width: 25%;
+			}
+			.col-xl-4{
+				width: 33.33%;
+			}
+			.col-xl-5{
+				width: 41.66%;
+			}
+			.col-xl-6{
+				width: 50%;
+			}
+			.col-xl-7{
+				width: 58.33%;
+			}
+			.col-xl-8{
+				width: 66.66%;
+			}
+			.col-xl-9{
+				width: 75%;
+			}
+			.col-xl-10{
+				width: 83.33%;
+			}
+			.col-xl-11{
+				width: 91.66%;
+			}
+			.col-xl-12{
+				width: 100%;
+			}
+		}
+
+@media (max-width: 375px){.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{
+			float: left;
+			}
+			.col-xs-1{
+				width: 8.33%;
+			}
+			.col-xs-2{
+				width: 16.66%;
+			}
+			.col-xs-3{
+				width: 25%;
+			}
+			.col-xs-4{
+				width: 33.33%;
+			}
+			.col-xs-5{
+				width: 41.66%;
+			}
+			.col-xs-6{
+				width: 50%;
+			}
+			.col-xs-7{
+				width: 58.33%;
+			}
+			.col-xs-8{
+				width: 66.66%;
+			}
+			.col-xs-9{
+				width: 75%;
+			}
+			.col-xs-10{
+				width: 83.33%;
+			}
+			.col-xs-11{
+				width: 91.66%;
+			}
+			.col-xs-12{
+				width: 100%;
+			}
+		}
