@@ -58,6 +58,7 @@ header .nav-item a {
     flex-direction: row-reverse;
     justify-content: space-between;
     margin: 100px 0;
+    padding: 0 70px;
 }
 
 .first-talk #firstI {
@@ -66,13 +67,12 @@ header .nav-item a {
 }
 
 .first-talk #firstI img {
-    width: 45vw;
+    width: 100%;
 }
 
 .first-talk .another {
-    width: 45vw;
+    width: 100%;
     margin: auto 0;
-    margin-left: 50px;
 }
 
 .first-talk .another h1 {
@@ -99,10 +99,11 @@ header .nav-item a {
     border: 1px solid hsl(243, 87%, 12%);
     border-radius: 3px;
     padding-left: 15px;
+    opacity: 50%;
 }
 
 .first-talk .another input:hover {
-    opacity: 50%;
+    opacity: 100%;
 }
 
 .first-talk .another button {
@@ -117,6 +118,7 @@ header .nav-item a {
 .first-talk .another button:hover {
     cursor: pointer;
     background-color: hsl(224, 96%, 74%);
+    transform: scale(1.05);
 }
 
 .bcd {
@@ -125,7 +127,7 @@ header .nav-item a {
 }
 
 .second-talk {
-    padding: 70px 0;
+    padding: 70px;
     background-color: hsl(240, 75%, 98%);
     width: 100vw;
     display: flex;
@@ -138,14 +140,13 @@ header .nav-item a {
     padding: 30px;
 }
 
-.second-talk #secondI img {
-    width: 45vw;
+.second-talk #secondI img{
+    width: 100%;
 }
 
 .second-talk .another {
-    width: 45vw;
+    width: 100%;
     margin: auto 0;
-    margin-left: 50px;
 }
 
 .second-talk .another h1 {
@@ -195,6 +196,10 @@ header .nav-item a {
     line-height: 20px;
 }
 
+.jumbotron:hover{
+    transform: scale(1.05);
+}
+
 .jumbotron p{
     width: 250px;
 }
@@ -215,6 +220,7 @@ header .nav-item a {
 }
 
 #ft1 {
+    width: 100vw;
     background-color: hsl(238, 22%, 44%);
     color: white;
     padding: 70px 100px 40px 50px;
@@ -257,6 +263,7 @@ header .nav-item a {
     box-shadow: 0 5px 2px rgb(80, 80, 80);
 }
 
+
 #ft1 form button {
     background-color: hsl(224, 93%, 58%);
     width: 150px;
@@ -267,6 +274,12 @@ header .nav-item a {
     border: none;
     border-radius: 3px;
     color: white;
+}
+
+#ft1 form button:hover{
+    cursor: pointer;
+    background-color: hsl(224, 96%, 74%);
+    transform: scale(1.05);
 }
 
 #ft2{
@@ -296,7 +309,7 @@ header .nav-item a {
 }
 
 #ft2 .contact p a img{
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 #ft2 .icons{
@@ -304,4 +317,12 @@ header .nav-item a {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+}
+
+#ft2 .icons a{
+    width: fit-content;
+}
+
+#ft2 .icons a img:hover{
+    transform: scale(1.2);
 }
