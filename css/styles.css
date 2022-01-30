@@ -20,6 +20,10 @@ body {
     width: 100vw;
 }
 
+a{
+    cursor: pointer;
+}
+
 header {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -29,11 +33,12 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 header .logo img {
-    width: 130px;
-    height: 38.37px;
+    width: 148px;
+    height: 43.69px;
 }
 
 header .nav-items {
@@ -44,6 +49,7 @@ header .nav-items {
 
 header .nav-item {
     list-style: none;
+    width: fit-content;
     padding-right: 50px;
 }
 
@@ -57,7 +63,7 @@ header .nav-item a {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin: 100px 0;
+    margin: 70px 0;
     padding: 0 70px;
 }
 
@@ -309,7 +315,7 @@ header .nav-item a {
 
 
 #ft2 .contact p {
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
 }
 
 #ft2 .contact p a img{
@@ -317,7 +323,7 @@ header .nav-item a {
 }
 
 #ft2 .icons{
-    padding: 10px 0;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -331,3 +337,179 @@ header .nav-item a {
 #ft2 .icons a img:hover{
     transform: scale(1.2);
 }
+
+@media screen and (max-width:850px) {
+    html{
+        width: 100vw;
+    }
+
+    body{
+        width: 100vw;
+        font-size: 15px;
+    }
+
+    .container{
+        width: 100vw;
+    }
+    
+    header{
+        padding: 30px 10px 20px 30px;
+    }
+
+    header .logo img {
+        width: 130px;
+        height: 38.37px;
+    }
+
+    header .nav-item {
+        padding-right: 30px;
+        font-size: 14px;
+    }
+
+    .first-talk {
+        width: 100vw;
+        margin: auto;
+        padding: 50px;
+        display: block;
+    }
+
+    .first-talk #firstI{
+        margin: auto;
+    }
+
+    .first-talk #firstI img{
+        width: 100%;
+    }
+
+    .first-talk .another{
+        text-align: center;
+    }
+
+    .first-talk .another h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .first-talk .another form{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 35px 35px;
+        grid-gap: 10px;
+    }
+
+    .second-talk {
+        width: 100vw;
+        display: block;
+        padding: 50px;
+    }
+
+    .second-talk #firstI{
+        margin: auto;
+    }
+
+    .second-talk #firstI img{
+        width: 100%;
+    }
+
+
+    .second-talk .another h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .second-talk .another p{
+        width: 100%;
+    }
+
+    #ft1{
+        display: block;
+        text-align: center;
+        padding: 50px;
+    }
+
+    #ft1 .fttalk{
+        width: 100%;
+    }
+
+    #ft1 .fttalk p {
+        width: 100%;
+        line-height: 22px;
+    }
+
+    #ft1 form{
+        text-align: center;
+    }
+
+    #ft1 input{
+        width: 100%;
+    }
+    
+    #ft1 form input {
+        padding: 15px;
+    }
+    
+    
+    #ft1 form button {
+        width: 100%;
+        font-size: 12px;
+
+    }
+
+    #ft2{
+        width: 100vw;
+        display: block;
+    }
+
+    #ft2 ul{
+        padding-top: 20px;
+        margin-left: -30px;
+    }
+
+    #ft2 .icons{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 10px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 410px) {
+    html{
+        width: 100vw;
+    }
+
+    body{
+        width: 100vw;
+        font-size: 14px;
+    }
+
+    .container{
+        width: 100vw;
+    }
+    
+    header{
+        padding: 30px 10px 20px 30px;
+    }
+
+    header .logo img {
+        width: 100px;
+        height: 29.52px;
+    }
+
+    header .nav-item {
+        padding-right: 30px;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
