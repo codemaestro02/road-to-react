@@ -87,7 +87,7 @@ header .nav-item a {
     padding: 20px 0;
 }
 
-.first-talk .another form {
+.first-talk .another form{
     width: 38vw;
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -109,7 +109,7 @@ header .nav-item a {
 .first-talk .another button {
     background-color: hsl(224, 93%, 58%);
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     border: none;
     border-radius: 3px;
     color: white;
@@ -288,7 +288,7 @@ header .nav-item a {
     padding: 70px 70px 70px 50px;
     color: white;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
 
 }
@@ -296,6 +296,10 @@ header .nav-item a {
 #ft2 a{
     text-decoration: none;
     color: white;
+}
+
+#ft2 ul{
+    margin-left: -20px;
 }
 
 #ft2 li{
@@ -317,6 +321,7 @@ header .nav-item a {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    margin-left: 20px;
 }
 
 #ft2 .icons a{
