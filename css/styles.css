@@ -44,13 +44,15 @@ header .logo img {
 header .nav-items {
     display: grid;
     grid-template-columns: repeat(3, auto);
+    column-gap: 50px;
     padding-top: 5px;
+    padding-right: 50px;
 }
 
 header .nav-item {
     list-style: none;
-    width: fit-content;
-    padding-right: 50px;
+    width: 100%;
+
 }
 
 header .nav-item a {
@@ -372,9 +374,8 @@ header .nav-item a:visited {
         width: 130px;
         height: 38.37px;
     }
-
+    
     header .nav-item {
-        padding-right: 30px;
         font-size: 12px;
         width: max-content;
     }
@@ -503,7 +504,7 @@ header .nav-item a:visited {
 
 
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 460px) {
     html{
         width: 100vw;
     }
@@ -526,10 +527,19 @@ header .nav-item a:visited {
         height: 29.52px;
     }
 
-    header .nav-item {
-        padding-right: 30px;
-        font-size: 12px;
+    header .nav-items {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 40px;
+        padding-top: 5px;
+        padding-right: 40px;
     }
+
+    header .nav-item{
+        width: max-content;
+        font-size: 11px;
+    }
+
 
     .first-talk .another form{
         width: 100%;
@@ -541,7 +551,7 @@ header .nav-item a:visited {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
     header .nav-items {
         display: grid;
         grid-template-columns: auto;
