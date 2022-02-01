@@ -402,12 +402,14 @@ header .nav-item a:visited {
     }
 
     .first-talk .another form{
-        width: 100%;
+        width: 80%;
+        margin: auto;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 35px 35px;
         grid-gap: 10px;
     }
+
 
     .second-talk {
         width: 100vw;
@@ -423,7 +425,6 @@ header .nav-item a:visited {
         width: 100%;
     }
 
-
     .second-talk .another h1{
         font-size: 22px;
         line-height: 30px;
@@ -432,6 +433,10 @@ header .nav-item a:visited {
 
     .second-talk .another p{
         width: 100%;
+    }
+
+    .second-talk .another .jumbotron{
+        width: 75%;
     }
 
     #ft1{
@@ -522,9 +527,22 @@ header .nav-item a:visited {
         padding-right: 30px;
         font-size: 12px;
     }
+
+    .first-talk .another form{
+        width: 100%;
+        
+    }
+
+    .second-talk .another .jumbotron{
+        width: 100%;
+    }
 }
 
-
-
+@media screen and (max-width: 375px) {
+    body{
+        margin: 0;
+        min-width: 100vw;
+    }
+}
 
 
