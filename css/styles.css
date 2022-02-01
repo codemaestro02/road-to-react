@@ -357,6 +357,7 @@ header .nav-item a:visited {
     body{
         width: 100vw;
         font-size: 15px;
+        overflow-x: clip;
     }
 
     .container{
@@ -374,8 +375,10 @@ header .nav-item a:visited {
 
     header .nav-item {
         padding-right: 30px;
-        font-size: 14px;
+        font-size: 12px;
+        width: max-content;
     }
+
 
     .first-talk {
         width: 100vw;
@@ -539,9 +542,12 @@ header .nav-item a:visited {
 }
 
 @media screen and (max-width: 375px) {
-    body{
-        margin: 0;
-        min-width: 100vw;
+    header .nav-items {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, auto);
+        row-gap: 10px;
+        padding-top: 5px;
     }
 }
 
